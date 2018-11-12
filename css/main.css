@@ -651,6 +651,15 @@ td, th {
       .section-title p br {
         display: none; } }
 
+.section-title h1{
+    font-size: 50px;
+}
+
+.section-title p{
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
 .alert-msg {
   color: #008000; }
 
@@ -2599,7 +2608,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     min-height: 780px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(../img/banner-2.jpg) no-repeat scroll center center;
+      background: url(../img/girl-blue.jpg) no-repeat scroll center center;
+      background-size: cover;
       opacity: .5;
       height: 125%;
       position: absolute;
