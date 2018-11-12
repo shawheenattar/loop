@@ -64,9 +64,16 @@ $(document).ready(function () {
             'id': ''
         });
         $('body').append($mobile_nav);
+
+        $('#mobile-nav').find('.info-border').removeClass('info-border');
+        $('#mobile-nav').find('.genric-btn').removeClass('generic-btn');
+        $('#mobile-nav li a').attr('style', 'text-align: left; font-size: default');
+
         $('body').prepend('<button type="button" id="mobile-nav-toggle"><i class="lnr lnr-menu"></i></button>');
         $('body').append('<div id="mobile-body-overly"></div>');
         $('#mobile-nav').find('.menu-has-children').prepend('<i class="lnr lnr-chevron-down"></i>');
+
+
 
         $(document).on('click', '.menu-has-children i', function (e) {
             $(this).next().toggleClass('menu-item-active');
@@ -157,7 +164,6 @@ $(document).ready(function () {
         }
 
     });
-
 
     // Header scroll class
     $(window).scroll(function () {
