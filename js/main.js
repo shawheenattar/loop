@@ -94,6 +94,7 @@ $(document).ready(function () {
         $("#mobile-nav, #mobile-nav-toggle").hide();
     }
 
+
     // Smooth scroll for the menu and links with .scrollto classes
     $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -162,10 +163,15 @@ $(document).ready(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
             $('#header').addClass('header-scrolled');
+            $('#logo a img').attr('src', 'img/loop-neg.png');
         } else {
             $('#header').removeClass('header-scrolled');
+            $('#logo a img').attr('src', 'img/loop.png');
+
         }
     });
+    
+        
 
     // Owl Carousel
     if ($('.testi-slider').length) {
