@@ -1878,12 +1878,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: url(../img/home-banner-bg.jpg) center;
   background-size: cover; }
   .home-banner-area .banner-img {
-    text-align: right; }
+    text-align: center; }
     @media (max-width: 1440px) {
       .home-banner-area .banner-img {
-        text-align: left; }
+        text-align: center; }
         .home-banner-area .banner-img img {
-          width: 60%; } }
+          width: 90%; } }
     @media (max-width: 991px) {
       .home-banner-area .banner-img {
         text-align: center; } }

@@ -167,7 +167,8 @@ $(document).ready(function () {
 
     // Header scroll class
     $(window).scroll(function () {
-        if (document.getElementsByTagName("title")[0].innerHTML=="Home") {
+        if (document.getElementsByTagName("title")[0].innerHTML=="Home" || 
+           document.getElementsByTagName("title")[0].innerHTML=="Contact") {
             if ($(this).scrollTop() > 50) {
                 $('#header').addClass('header-scrolled');
                 $('#logo a img').attr('src', 'img/loop-neg.png');
