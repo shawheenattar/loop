@@ -9,7 +9,7 @@ $(document).ready(function () {
         fitscreen = window_height - header_height;
 
 
-    $(".fullscreen").css("height", window_height*.7)
+    $(".fullscreen").css("height", window_height*.8)
     $(".fitscreen").css("height", fitscreen);
 
     if (document.getElementById("default-select")) {
