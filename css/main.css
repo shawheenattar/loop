@@ -970,6 +970,11 @@ h1, h2, h3, h4, h5, h6 {
           background: #fff;
           border: 2px solid transparent; }
 
+  .footer-btn {
+    color: #fff;}
+    .footer-btn:hover {
+      text-decoration: underline;}
+
   .genric-btn.warning {
     color: #fff;
     background: #f4e700;
@@ -3212,10 +3217,31 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #222222; }
+  background: url(../img/footer-bg.jpg) center; }
   @media (max-width: 991px) {
     .footer-area .single-footer-widget {
       margin-bottom: 30px; } }
+
+  .footer-area h2 {
+    color: #fff;
+    text-align: center}
+    @media (max-width: 1024px) {
+      .footer-area .single-footer-widget h4 {
+        font-size: 18px; } }
+    @media (max-width: 991px) {
+      .footer-area .single-footer-widget h4 {
+        margin-bottom: 15px; } }
+
+  .footer-area h4 {
+      color: #fff;
+      text-align: center}
+      @media (max-width: 1024px) {
+        .footer-area .single-footer-widget h4 {
+          font-size: 18px; } }
+      @media (max-width: 991px) {
+        .footer-area .single-footer-widget h4 {
+          margin-bottom: 15px; } }
+
   .footer-area .single-footer-widget h4 {
     color: #fff;
     margin-bottom: 35px; }
@@ -3235,6 +3261,19 @@ body.mobile-nav-active #mobile-nav-toggle {
       color: #777777; }
       .footer-area .single-footer-widget ul li a:hover {
         color: #fff; }
+
+  .footer-area .single-footer-widget a {
+    color:#fff;
+    margin-bottom: 15px; }
+    .footer-area .single-footer-widget ul li a {
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+      color: #777777; }
+      .footer-area .single-footer-widget ul li a:hover {
+        color: #fff; }
+
   .footer-area .single-footer-widget .form-wrap {
     margin-top: 25px; }
   .footer-area .single-footer-widget input {
@@ -3300,5 +3339,14 @@ body.mobile-nav-active #mobile-nav-toggle {
       font-size: 12px; }
       .footer-area .footer-bottom .buttons p span {
         font-size: 18px; }
+.spacer {
+    padding: 10px;
+}
+.big-spacer {
+    padding: 30px;
+}
+.really-big-spacer{
+    padding: 70px;
+}
 
 /*# sourceMappingURL=main.css.map */
