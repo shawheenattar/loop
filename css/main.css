@@ -1098,7 +1098,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat !important;
   background-position: center center !important;
   background-size: cover !important;
-  height: 200px; }
+  height: 300px; }
 
 .list-style {
   width: 14px;
@@ -1917,7 +1917,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       height: 700px !important; } }
 
 .banner-area {
-  background: url(../img/banner.jpg) center;
+  background: url(../img/banner.jpg) center ;
   background-size: cover; }
   .banner-area .banner-content {
     padding: 162px 0; }
