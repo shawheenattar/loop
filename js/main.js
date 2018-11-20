@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 
     $(".fullscreen").css("height", window_height)
-    $(".fill-most-screen").css("height", window_height*.7)
+    $(".fill-most-screen").css("height", window_height*.9)
     $(".fitscreen").css("height", fitscreen);
 
     if (document.getElementById("default-select")) {
